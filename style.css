@@ -1,0 +1,67 @@
+body{
+    text-align: center;
+
+    background-color: #94b9e1;
+
+}
+
+
+.box{
+    height:150px;
+    width:150px;
+    border:10px solid black;
+    
+    margin:1rem;
+}
+
+
+#pink{
+    border-radius: 70% 20% 20%  20%; 
+}
+#red{
+    border-radius: 20% 20% 20%  70%; 
+}
+
+#green{
+    border-radius: 20% 70% 20%  20%; 
+}
+
+#yellow{
+    border-radius: 20% 20% 70%  20%; 
+}
+
+
+.gamebox{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.yellow{
+    background-color: rgb(250, 250, 0);
+}
+
+.red{
+    background-color: rgb(231, 105, 105);
+}
+
+.green{
+    background-color: rgb(14, 255, 14);
+}
+
+.pink{
+    background-color: rgb(255, 0, 255);
+}
+ 
+.flash{
+    background-color: white;
+}
+.userFlash{
+    background-color: rgba(5, 231, 5,0.5);
+
+}
+
+.wrong{
+    background-color: red;
+}
